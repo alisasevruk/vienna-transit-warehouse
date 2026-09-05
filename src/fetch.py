@@ -81,11 +81,9 @@ def main():
     payload = fetch_departures()
     output_path = save_raw_response(payload, fetched_at)
 
-    print("Saved {output_path.name}")
+    print(f"Saved {output_path.name}")
 
 if __name__ == "__main__":
     main()
-
-
 
 
